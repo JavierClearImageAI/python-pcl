@@ -52,9 +52,9 @@ def main():
     ###
     viewer = pcl.visualization.PCLVisualizing()
     viewer.SetBackgroundColor(0, 0, 0)
-    viewer->InitCameraParameters()
+    # viewer->InitCameraParameters()
     # viewer->AddPointCloud (cloud, 'sample cloud', 0)
-    viewer->AddPointCloud(cloud)
+    # viewer->AddPointCloud(cloud)
     viewer.AddCube(min_point_AABB.x, max_point_AABB.x, min_point_AABB.y,
                    max_point_AABB.y, min_point_AABB.z, max_point_AABB.z, 1.0, 1.0, 0.0, "AABB")
 
